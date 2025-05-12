@@ -20,7 +20,7 @@ public class TitleScreen extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1);
-        setBackground("images/title screen backdround.jpg");
+        setBackground("images/title screen background.jpg");
         addObject(titleLabel, 300, 200);
         addObject(titleLabel2, 300, 280);
         addObject(elephant, 300, 100);
