@@ -9,7 +9,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class TitleScreen extends World
 {
 
-    Label titleLabel = new Label("Hungry Snake", 75);
+    Label titleLabel = new Label("Hungry Elephant", 75);
     Label titleLabel2 = new Label("Click space to start", 30);
     Elephant elephant = new Elephant();
     /**
