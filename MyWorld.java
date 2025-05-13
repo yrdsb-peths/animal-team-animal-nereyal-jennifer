@@ -28,6 +28,7 @@ public class MyWorld extends World {
         
         
         spawnApple();
+        spawnBanana();
     }
     
     /**
@@ -52,6 +53,16 @@ public class MyWorld extends World {
             level += 1;
         }
     }
+    public void doubleScore()
+    {
+        score+=2;
+        scoreLabel.setValue(score);
+        
+        if(score % 5 == 0) 
+        {
+            level += 1;
+        }
+    }
     
     /**
      * Create a new apple at a random location at top of screen
@@ -64,5 +75,13 @@ public class MyWorld extends World {
         int x = Greenfoot.getRandomNumber(600);
         int y = 0;
         addObject(apple, x, y);
+    }
+    public void spawnBanana()
+    {
+        Banana banana = new Banana();
+        banana.setSpeed(level);
+        int x = Greenfoot.getRandomNumber(600);
+        int y = 0;
+        addObject(banana, x, y);
     }
 }
