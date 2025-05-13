@@ -29,6 +29,7 @@ public class MyWorld extends World {
         
         spawnApple();
     }
+
     
     /**
      * End the game and draw 'GameOver'
