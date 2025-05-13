@@ -29,6 +29,7 @@ public class MyWorld extends World {
         
         spawnApple();
         spawnBanana();
+        spawnBomb();
     }
 
     
@@ -84,5 +85,13 @@ public class MyWorld extends World {
         int x = Greenfoot.getRandomNumber(600);
         int y = 0;
         addObject(banana, x, y);
+    }
+    public void spawnBomb()
+    {
+        Bomb bomb = new Bomb();
+        bomb.setSpeed(level);
+        int x = Greenfoot.getRandomNumber(600);
+        int y = 0;
+        addObject(bomb, x, y);
     }
 }
