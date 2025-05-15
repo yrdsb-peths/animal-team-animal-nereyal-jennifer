@@ -1,10 +1,10 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Apple here.
+ * Apple that falls and gives a point when elephant touches
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Jennifer
+ * @version May 2025
  */
 public class Apple extends Actor
 {

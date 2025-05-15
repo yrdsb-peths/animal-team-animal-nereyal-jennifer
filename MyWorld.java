@@ -2,7 +2,7 @@ import greenfoot.*;
 /**
  * The World our hero lives in
  * 
- * @author Nereyal
+ * @author Nereyal and Jennifer
  * @version May 2025
  */
 
@@ -67,7 +67,7 @@ public class MyWorld extends World {
     }
     
     /**
-     * Create a new apple at a random location at top of screen
+     * Create a new apple, banana, and bomb at a random location at top of screen
      */
     
     public void spawnApple()

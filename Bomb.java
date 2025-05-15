@@ -1,10 +1,10 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Bomb here.
+ * A bomb object that falls, when elephant touches game is over
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Nereyal
+ * @version May 2025
  */
 public class Bomb extends Actor
 {
@@ -37,6 +37,10 @@ public class Bomb extends Actor
         {
             world.gameOver();
             world.removeObject(this);
+        }
+        if(getY() == world.getHeight())
+        {
+            world.spawnBomb();
         }
     }
     
