@@ -70,7 +70,8 @@ public class MyWorld extends World {
     }
     
     /**
-     * Create a new apple, banana, and bomb at a random location at top of screen
+     * Create a new apple, banana, and bomb at a random location 
+     * at top of screen
      */
     
     public void spawnApple()

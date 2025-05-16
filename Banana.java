@@ -1,7 +1,7 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Banana here.
+ * Banana falls and gives 2 points when elephant touches
  * 
  * @author Jennifer
  * @version May 2025
